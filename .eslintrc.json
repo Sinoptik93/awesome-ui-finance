@@ -183,6 +183,7 @@
         "multilineDetection": "brackets"
       }
     ],
+    "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/adjacent-overload-signatures": "warn",
     "@typescript-eslint/no-confusing-non-null-assertion": "warn",
     "@typescript-eslint/prefer-optional-chain": "warn",
