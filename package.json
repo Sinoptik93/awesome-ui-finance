@@ -2,9 +2,9 @@
   "name": "awesome-finance-react",
   "version": "1.0.0",
   "description": "Finance UI react components library.",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -34,5 +34,6 @@
   "peerDependencies": {
     "react": "*",
     "react-dom": "*"
-  }
+  },
+  "files": ["dist"]
 }
