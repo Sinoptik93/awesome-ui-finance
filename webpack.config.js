@@ -4,10 +4,11 @@ module.exports = {
   mode: "production",
   entry: "./src/index.ts",
   output: {
+    globalObject: "this",
     filename: "index.js",
     path: path.resolve(__dirname, "dist/"),
     library: {
-      name: "awesome-finance-react",
+      name: "awesome-ui-finance",
       type: "umd",
     },
     clean: true,
