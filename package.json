@@ -1,5 +1,5 @@
 {
-  "name": "awesome-finance-react",
+  "name": "awesome-ui-finance",
   "version": "1.0.0",
   "description": "Finance UI react components library.",
   "main": "./dist/index.js",
@@ -35,5 +35,7 @@
     "react": "*",
     "react-dom": "*"
   },
-  "files": ["dist"]
+  "files": [
+    "dist"
+  ]
 }
