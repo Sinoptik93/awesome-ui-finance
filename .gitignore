@@ -1,0 +1,8 @@
+# Directories
+node_modules
+dist
+
+# Temp and cache
+.DS_Store
+.idea
+.vscode
