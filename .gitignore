@@ -1,8 +1,10 @@
 # Directories
 node_modules
 dist
+coverage
 
 # Temp and cache
+temp
 .DS_Store
 .idea
 .vscode
