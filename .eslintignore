@@ -1,0 +1,7 @@
+// Directories
+node_modules
+dist
+src/stories
+
+// Extensions
+*.log
