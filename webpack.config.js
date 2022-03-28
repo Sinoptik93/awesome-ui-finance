@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  mode: "production",
+  mode: "development",
   entry: "./src/index.ts",
   output: {
     globalObject: "this",
@@ -14,7 +14,7 @@ module.exports = {
     clean: true,
   },
   resolve: {
-    extensions: [".ts", ".tsx", ".js"],
+    extensions: [".ts", ".tsx", ".js", ".css", ".scss"],
   },
   externals: {
     react: "react",
@@ -25,6 +25,25 @@ module.exports = {
         test: /\.(ts|tsx)?$/,
         use: ["ts-loader"],
         exclude: /node_modules/,
+      },
+      {
+        test: /\.module.scss$/i,
+        use: [
+          "style-loader",
+          {
+            loader: "css-loader",
+            options: {
+              importLoaders: 2,
+              modules: {
+                mode: "local",
+                localIdentName: "[path]--[hash:base64:5]",
+                localIdentContext: path.resolve(__dirname, "src"),
+              },
+            },
+          },
+          "postcss-loader",
+          "sass-loader",
+        ],
       },
     ],
   },

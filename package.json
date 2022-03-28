@@ -1,6 +1,6 @@
 {
   "name": "awesome-ui-finance",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Finance UI react components library.",
   "main": "./dist/index.js",
   "scripts": {
@@ -19,15 +19,23 @@
   "homepage": "https://github.com/Sinoptik93/awesome-finance-react#readme",
   "devDependencies": {
     "@types/react": "^17.0.43",
+    "autoprefixer": "^10.4.4",
+    "css-loader": "^6.7.1",
     "eslint": "^8.12.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-react-app": "^7.0.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-typescript": "^0.14.0",
+    "postcss": "^8.4.12",
+    "postcss-loader": "^6.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
     "ts-loader": "^9.2.8",
     "typescript": "^4.6.3",
+    "typescript-plugin-css-modules": "^3.4.0",
     "webpack": "^5.70.0",
     "webpack-cli": "^4.9.2"
   },
