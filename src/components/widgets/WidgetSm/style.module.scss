@@ -1,0 +1,28 @@
+.body {
+  padding: 20px 30px;
+
+  border-radius: 10px;
+  background-color: #191932;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.description_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.amount {
+  font-size: 16px;
+}
