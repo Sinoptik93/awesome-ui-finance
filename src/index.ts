@@ -1,3 +1,3 @@
 import MyButton from "./MyButton";
 
-export default { MyButton };
+export { MyButton };
